@@ -16,12 +16,10 @@ class VideoListItem extends Component {
     }
 
     componentDidUpdate(prevProps) {
-        // Typical usage (don't forget to compare props):
         if (this.props.indice !== prevProps.indice) {
             this.setState({
                value: this.props.indice
-            })
-            
+            })  
         }
       }
     
